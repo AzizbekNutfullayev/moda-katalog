@@ -244,13 +244,20 @@ function Catalog() {
               target="_blank"
               rel="noreferrer"
             >
-              Instagram ↗ 
+              Instagram ↗ Sanan_
+            </a>
+            <a
+              href="https://t.me/@nutfullayev_Amir"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Telegram ↗ @nutfullayev_Amir
             </a>
           </div>
 
           <div className="footer-column">
             <h3>Manzilimiz</h3>
-            <p>Toshkent shahri, manzil kiritiladi</p>
+            <p>Buxoro shahar ,kalxoz bozor 67</p>
             <a
               href="https://www.google.com/maps"
               target="_blank"
