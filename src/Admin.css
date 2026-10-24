@@ -1,0 +1,280 @@
+.admin-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 24px 16px;
+    background: #f7f6f2;
+    box-sizing: border-box;
+}
+
+.admin-card {
+    width: 100%;
+    max-width: 420px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    background: #fff;
+    border: 1px solid #e8e6e0;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.admin-wide {
+    max-width: 850px;
+}
+
+.admin-logo {
+    color: #171717;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.admin-logo span {
+    color: #a47745;
+}
+
+.admin-card h1 {
+    margin: 8px 0 0;
+    color: #171717;
+    font-size: 27px;
+}
+
+.admin-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.admin-card label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.admin-card input,
+.admin-card select {
+    width: 100%;
+    min-height: 46px;
+    padding: 12px;
+    border: 1px solid #d9d7d0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: #fff;
+    font: inherit;
+}
+
+.admin-card input[type="file"] {
+    padding: 10px;
+}
+
+.admin-card button {
+    min-height: 46px;
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 8px;
+    background: #171717;
+    color: white;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.admin-card button:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+
+.admin-error {
+    color: #b42318 !important;
+    overflow-wrap: anywhere;
+    font-size: 14px;
+}
+
+.admin-success {
+    color: #167647 !important;
+    overflow-wrap: anywhere;
+    font-size: 14px;
+}
+
+.admin-dashboard {
+    display: block;
+}
+
+.admin-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.admin-top p {
+    margin-bottom: 8px;
+}
+
+.admin-card .secondary-button {
+    background: #eeeae3;
+    color: #171717;
+    flex-shrink: 0;
+}
+
+.product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 28px;
+    padding: 22px;
+    border: 1px solid #e8e6e0;
+    border-radius: 12px;
+}
+
+.product-form h2,
+.admin-products h2 {
+    margin: 0 0 8px;
+    font-size: 20px;
+}
+
+.file-name {
+    overflow-wrap: anywhere;
+    margin: 0;
+}
+
+.admin-products {
+    margin-top: 30px;
+}
+
+.admin-product {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px solid #e8e6e0;
+}
+
+.admin-product img,
+.admin-no-image {
+    width: 68px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    object-fit: cover;
+    background: #f0eee9;
+}
+
+.admin-no-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.admin-product-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.admin-product-info span {
+    color: #666;
+    font-size: 13px;
+}
+
+.admin-card .delete-button {
+    min-height: 38px;
+    padding: 8px 12px;
+    background: #a92727;
+    flex-shrink: 0;
+}
+
+.back-to-store {
+    display: inline-block;
+    margin-top: 24px;
+    color: #171717;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .admin-card {
+        padding: 18px;
+    }
+    .product-form {
+        padding: 14px;
+    }
+    .admin-top {
+        flex-direction: column;
+    }
+    .admin-product {
+        gap: 10px;
+    }
+    .admin-product img,
+    .admin-no-image {
+        width: 54px;
+        height: 65px;
+    }
+    .admin-card .delete-button {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
+
+
+/* Mahsulot qo‘shish maydonlari */
+
+.product-form input,
+.product-form select {
+    background-color: #ffffff;
+    color: #171717;
+    border: 1px solid #171717;
+    border-radius: 8px;
+}
+
+
+/* Maydon ichidagi yordamchi yozuvlar */
+
+.product-form input::placeholder {
+    color: #777777;
+}
+
+
+/* Maydon tanlanganda */
+
+.product-form input:focus,
+.product-form select:focus {
+    outline: 2px solid #171717;
+    outline-offset: 2px;
+}
+
+
+/* Kategoriya tanlash ro‘yxati */
+
+.product-form select option {
+    background-color: #ffffff;
+    color: #171717;
+}
+
+
+/* Rasm tanlash tugmasi */
+
+.product-form input[type="file"] {
+    background-color: #ffffff;
+    color: #171717;
+    cursor: pointer;
+}
+
+
+/* Mahsulot qo‘shish tugmasi */
+
+.product-form button {
+    background-color: #171717;
+    color: #ffffff;
+    border: 1px solid #171717;
+    transition: background-color 0.2s ease;
+}
+
+.product-form button:hover {
+    background-color: #333333;
+}
