@@ -79,7 +79,7 @@ function Catalog() {
 
       <header className="header">
         <a className="logo" href="#">
-          MODA<span>.</span>
+          SANAN<span>.</span>
         </a>
 
         <nav className="header-actions">
@@ -221,7 +221,7 @@ function Catalog() {
         <div className="footer-main">
           <div>
             <a className="logo footer-logo" href="#">
-              MODA<span>.</span>
+              SANAN<span>.</span>
             </a>
 
             <p className="footer-description">
